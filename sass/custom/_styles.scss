@@ -1,11 +1,25 @@
-// This File is imported last, and will override other styles in the cascade
-// Add styles here to make changes without digging in too much
+/* --- main layout --- */
 
-h1 {
-    font-size: 1.2em;
+/* --- header, blog header and subheader --- */
+body > header h1{
+    font-size: 2.0em;
 }
-section {
-    h1 {
-        font-size: 0.5em;
-    }
+body > header h2{
+    font-size: 1.0em;
 }
+
+/* --- navigation bar --- */
+body > nav a{
+    font-size: 1em;
+}
+
+/* --- content --- */
+#content .blog-index article h1{
+    font-size: 1.5em;
+}
+
+#content .blog-index article h1, #content .blog-index article h1 a, article header h1, article header h1 a{
+    color: #000000 !important;
+}
+
+h1 { font-size: 1.8em; }
