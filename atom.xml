@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Xiaochen's Blog]]></title>
+  <link href="http://xiaochenchen.github.io/atom.xml" rel="self"/>
+  <link href="http://xiaochenchen.github.io/"/>
+  <updated>2013-05-14T14:33:30+00:00</updated>
+  <id>http://xiaochenchen.github.io/</id>
+  <author>
+    <name><![CDATA[Xiaochen Chen]]></name>
+    <email><![CDATA[xiaochenchen.git@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Encounter Permission denied (publickey) with Octopress]]></title>
+    <link href="http://xiaochenchen.github.io/blog/2013/05/13/encounter-permission-denied-publickey-with-octopress/"/>
+    <updated>2013-05-13T01:07:00+00:00</updated>
+    <id>http://xiaochenchen.github.io/blog/2013/05/13/encounter-permission-denied-publickey-with-octopress</id>
+    <content type="html"><![CDATA[<p>I got this error message when I tried to regenerate the content and push them to GitHub.</p>
+
+<p>It was working just fine when I first set up and push out the first time about a few hours ago, when I was running</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake setup_github_pages
+</span><span class='line'>rake generate
+</span><span class='line'>rake deploy</span></code></pre></td></tr></table></div></figure>
+
+
+<p>I have no idea how it worked the first time, but it apparently looks like I don&rsquo;t have the SSH keys set up correctly.</p>
+
+<p>But my problem was that SSH wasn&rsquo;t using the correct private key <code>github_rsa</code> because it was looking for a default name <code>id_rsa</code>.</p>
+
+<p>You can find a GitHub help page that diagnoses on the <a href="https://help.github.com/articles/error-permission-denied-publickey">Permission denied (publickey)</a> error.</p>
+
+<p>GitHub also has a help page about <a href="https://help.github.com/articles/generating-ssh-keys">generating SSH keys</a> and upload the public key to GitHub.</p>
+]]></content>
+  </entry>
+  
+</feed>
