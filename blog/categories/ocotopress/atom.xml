@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Ocotopress | Xiaochen's Blog]]></title>
-  <link href="http://xiaochenchen.github.io/blog/categories/ocotopress/atom.xml" rel="self"/>
-  <link href="http://xiaochenchen.github.io/"/>
-  <updated>2013-05-14T14:33:30+00:00</updated>
-  <id>http://xiaochenchen.github.io/</id>
+  <title><![CDATA[Category: Ocotopress | Xiaochen Chen]]></title>
+  <link href="http://xiaochenchen.github.com/blog/categories/ocotopress/atom.xml" rel="self"/>
+  <link href="http://xiaochenchen.github.com/"/>
+  <updated>2013-05-14T22:20:57+00:00</updated>
+  <id>http://xiaochenchen.github.com/</id>
   <author>
     <name><![CDATA[Xiaochen Chen]]></name>
     <email><![CDATA[xiaochenchen.git@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Encounter Permission denied (publickey) with Octopress]]></title>
-    <link href="http://xiaochenchen.github.io/blog/2013/05/13/encounter-permission-denied-publickey-with-octopress/"/>
+    <link href="http://xiaochenchen.github.com/blog/2013/05/13/encounter-permission-denied-publickey-with-octopress/"/>
     <updated>2013-05-13T01:07:00+00:00</updated>
-    <id>http://xiaochenchen.github.io/blog/2013/05/13/encounter-permission-denied-publickey-with-octopress</id>
+    <id>http://xiaochenchen.github.com/blog/2013/05/13/encounter-permission-denied-publickey-with-octopress</id>
     <content type="html"><![CDATA[<p>I got this error message when I tried to regenerate the content and push them to GitHub.</p>
 
 <p>It was working just fine when I first set up and push out the first time about a few hours ago, when I was running</p>

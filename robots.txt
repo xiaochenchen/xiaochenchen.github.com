@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://xiaochenchen.github.io/sitemap.xml 
+Sitemap: http://xiaochenchen.github.com/sitemap.xml 
