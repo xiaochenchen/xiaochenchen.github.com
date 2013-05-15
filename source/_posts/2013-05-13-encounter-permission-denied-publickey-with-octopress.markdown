@@ -17,10 +17,8 @@ rake deploy
 
 I have no idea how it worked the first time, but it apparently looks like I don't have the SSH keys set up correctly.
 
-But my problem was that SSH wasn't using the correct private key (github_rsa) because it was looking for a default name (id_rsa).
+But my problem was that SSH wasn't using the correct private key <code>github_rsa</code> because it was looking for a default name <code>id_rsa</code>.
 
-You can find a GitHub help page that helps you diagnose the reasons when you see this error:
-https://help.github.com/articles/error-permission-denied-publickey
+You can find a GitHub help page that diagnoses on the <a href="https://help.github.com/articles/error-permission-denied-publickey">Permission denied (publickey)</a> error.
 
-GitHub also has a help page about generating SSH keys pairs and upload the public key to GitHub.
-https://help.github.com/articles/generating-ssh-keys
+GitHub also has a help page about <a href="https://help.github.com/articles/generating-ssh-keys">generating SSH keys</a> and upload the public key to GitHub.
