@@ -10,7 +10,7 @@
 
   
   <meta name="description" content="Blog Archive 2013 Encounter Permission denied (publickey) with Octopress
-May 13 2013 posted in GitHub, Ocotopress, SSH About Me Xiaochen Chen (@ &hellip;">
+May 13 2013 posted in GitHub, Ocotopress, SSH &nbsp;&nbsp; &nbsp;&nbsp; & &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -41,7 +41,7 @@ May 13 2013 posted in GitHub, Ocotopress, SSH About Me Xiaochen Chen (@ &hellip;
   
     <h2>Keep learning and creating, always!</h2>
   
-    <a href="https://github.com/xiaochenchen"><img style="position:absolute;top:0;right:0;border:0;" src="images/forkme_right_orange_ff7600.png" alt="Fork me on GitHub"></a>  
+    <a href="https://github.com/xiaochenchen"><img style="position:absolute;top:0;right:0;border:0;" src="/images/forkme_right_orange_ff7600.png" alt="Fork me on GitHub"></a>  
 </hgroup>
 
 </header>
@@ -101,41 +101,44 @@ May 13 2013 posted in GitHub, Ocotopress, SSH About Me Xiaochen Chen (@ &hellip;
 
 <aside class="sidebar">
   
-    
+    <section>
+    <div class="contact" style="margin-top:0.5em;" align="center">
+        <font size="5"><a href="http://www.weibo.com/u/2462126714" title="email" style="text-decoration:none" class="icon-mail"></a></font>
+        <font size="5">&nbsp;&nbsp;</font>
+        <font size="5"><a href="http://www.linkedin.com/in/jamesxiaochen" title="linkedin" style="text-decoration:none" class="icon-linkedin"></a></font>
+        <font size="5">&nbsp;&nbsp;</font>
+        <font size="5"><a href="http://www.weibo.com/u/2462126714" title="weibo" style="text-decoration:none" class="icon-chn-weibo"></a></font>
+        <font size="5">&nbsp;&nbsp;</font>
+        <font size="5"><a href="http://www.weibo.com/u/2462126714" title="googleplus" style="text-decoration:none" class="icon-google__x2B_"></a></font>
+        <font size="5">&nbsp;</font>
+        <font size="5"><a href="http://www.weibo.com/u/2462126714" title="facebook" style="text-decoration:none" class="icon-facebook"></a></font>
+
+    </div>
+</section>
 <section>
   <h1>About Me</h1>
+  <p>I’m a software engineer and a snow sport enthusiast who likes coffee!</p>
+</section>
+
+<section>
   <div id="twitter-profile" style="margin-top:0.5em;">
     <p>
-      <strong>Xiaochen Chen</strong> 
-      (<a href="http://twitter.com/jamesxiaochen">@jamesxiaochen</a>)
+      <a href="http://twitter.com/jamesxiaochen" class="twitter-follow-button" data-show-count="true" data-size="large">Follow @jamesxiaochen</a>
     </p>
-    <p>I'm a software engineer and a snow sport enthusiast who likes coffee!</p>
   </div>
-  <script type="text/javascript">
-    $.domReady(function(){
-        var container = $('#twitter-profile'),
-            user = "jamesxiaochen";
-        
-        function parseTwLinks(s) {
-          var twUrl = "http://www.twitter.com/"
-          s = s.replace(/ (@([\w]+))/g, function(match, p1, p2) {
-              return " <a href='"+twUrl+p2+"'>"+p1+"</a>"
-          }).replace(/ (#([\w]+))/g, function(match, p1, p2) {
-              return " <a href='"+twUrl+"#!/search?q=%23"+p2+"'>"+p1+"</a>"
-          })
-          return s
+<script>
+    !function(d,s,id)
+    {
+        var js,fjs=d.getElementsByTagName(s)[0];
+        if(!d.getElementById(id))
+        {
+            js=d.createElement(s);
+            js.id=id;
+            js.src="platform.twitter.com/widgets.js";
+            fjs.parentNode.insertBefore(js,fjs);
         }
-
-        $.ajax({
-            url: "http://api.twitter.com/1/users/show.json?include_entities=false&screen_name="+user+"&callback=?"
-          , type: 'jsonp'
-          , error: function (err) { $('#twitter-profile').addClass('error');  }
-          , success: function(data) {
-              container.html('<img class="left" src="http://api.twitter.com/1/users/profile_image/'+user+'.json?size=bigger" alt="@'+user+'"><p><strong>'+data.name+'</strong> (<a href="http://twitter.com/'+user+'">@'+user+'</a>)<br/>'+data.location+'</p><p>'+parseTwLinks(data.description)+'</p>');
-            }
-        })
-      });
-  </script>
+    }(document,"script","twitter-wjs");
+</script>
 </section>
 
 <section>
