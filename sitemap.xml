@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
+    <url>
+        <loc>
+            http://xiaochenchen.github.com/blog/2013/05/13/encounter-permission-denied-publickey-with-octopress/
+        </loc>
+        <lastmod>2013-05-14T14:21:28+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://xiaochenchen.github.com/blog/archives/</loc>
+        <lastmod>2013-05-14T14:21:28+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://xiaochenchen.github.com/</loc>
+        <lastmod>2013-05-14T14:21:28+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://xiaochenchen.github.com/robots.txt</loc>
+        <lastmod>2013-05-13T19:25:26+00:00</lastmod>
+    </url>
+</urlset>

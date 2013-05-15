@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://xiaochenchen.github.com/sitemap.xml 
