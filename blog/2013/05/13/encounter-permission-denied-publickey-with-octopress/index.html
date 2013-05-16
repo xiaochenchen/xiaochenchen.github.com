@@ -40,7 +40,7 @@
   
     <h2>Keep learning and creating, always!</h2>
   
-    <a href="https://github.com/xiaochenchen"><img style="position:absolute;top:0;right:0;border:0;" src="images/forkme_right_orange_ff7600.png" alt="Fork me on GitHub"></a>  
+    <a href="https://github.com/xiaochenchen"><img style="position:absolute;top:0;right:0;border:0;" src="/images/forkme_right_orange_ff7600.png" alt="Fork me on GitHub"></a>  
 </hgroup>
 
 </header>
@@ -151,6 +151,27 @@
   
   <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://xiaochenchen.github.com/blog/2013/05/13/encounter-permission-denied-publickey-with-octopress/" data-via="jamesxiaochen" data-counturl="http://xiaochenchen.github.com/blog/2013/05/13/encounter-permission-denied-publickey-with-octopress/" >Tweet</a>
   
+<script type="text/javascript" charset="utf-8">
+(function(){
+  var _w = 90 , _h = 24;
+  var param = {
+    url:location.href,
+    type:'2',
+    count:'1', /**是否显示分享数，1显示(可选)*/
+    appkey:'', /**您申请的应用appkey,显示分享来源(可选)*/
+    title:'', /**分享的文字内容(可选，默认为所在页面的title)*/
+    pic:'', /**分享图片的路径(可选)*/
+    ralateUid:'2462126714', /**关联用户的UID，分享微博会@该用户(可选)*/
+language:'zh_cn', /**设置语言，zh_cn|zh_tw(可选)*/
+    rnd:new Date().valueOf()
+  }
+  var temp = [];
+  for( var p in param ){
+    temp.push(p + '=' + encodeURIComponent( param[p] || '' ) )
+  }
+  document.write('<iframe allowTransparency="true" frameborder="0" scrolling="no" src="http://hits.sinajs.cn/A1/weiboshare.html?' + temp.join('&') + '" width="'+ _w+'" height="'+_h+'"></iframe>')
+})()
+</script>
   
   
     <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
@@ -175,41 +196,44 @@
 
 <aside class="sidebar">
   
-    
+    <section>
+    <div class="contact" style="margin-top:0.5em;" align="center">
+        <font size="5"><a href="mailto:xiaochenchen.git@gmail.com" title="email" style="text-decoration:none" class="icon-mail"></a></font>
+        <font size="5">&nbsp;&nbsp;</font>
+        <font size="5"><a href="http://www.linkedin.com/in/jamesxiaochen" title="linkedin" style="text-decoration:none" class="icon-linkedin" target="_blank"></a></font>
+        <font size="5">&nbsp;&nbsp;</font>
+        <font size="5"><a href="http://www.weibo.com/u/2462126714" title="weibo" style="text-decoration:none" class="icon-chn-weibo" target="_blank"></a></font>
+        <font size="5">&nbsp;&nbsp;</font>
+        <font size="5"><a href="https://plus.google.com/102810365172178380975" title="googleplus" style="text-decoration:none" class="icon-google__x2B_" target="_blank"></a></font>
+        <font size="5">&nbsp;</font>
+        <font size="5"><a href="https://www.facebook.com/people/Xiaochen-Chen/8119253" title="facebook" style="text-decoration:none" class="icon-facebook" target="_blank"></a></font>
+
+    </div>
+</section>
 <section>
   <h1>About Me</h1>
+  <p>I’m a software engineer and a snow sport enthusiast who likes coffee!</p>
+</section>
+
+<section>
   <div id="twitter-profile" style="margin-top:0.5em;">
     <p>
-      <strong>Xiaochen Chen</strong> 
-      (<a href="http://twitter.com/jamesxiaochen">@jamesxiaochen</a>)
+      <a href="http://twitter.com/jamesxiaochen" class="twitter-follow-button" data-show-count="true" data-size="large">Follow @jamesxiaochen</a>
     </p>
-    <p>I'm a software engineer and a snow sport enthusiast who likes coffee!</p>
   </div>
-  <script type="text/javascript">
-    $.domReady(function(){
-        var container = $('#twitter-profile'),
-            user = "jamesxiaochen";
-        
-        function parseTwLinks(s) {
-          var twUrl = "http://www.twitter.com/"
-          s = s.replace(/ (@([\w]+))/g, function(match, p1, p2) {
-              return " <a href='"+twUrl+p2+"'>"+p1+"</a>"
-          }).replace(/ (#([\w]+))/g, function(match, p1, p2) {
-              return " <a href='"+twUrl+"#!/search?q=%23"+p2+"'>"+p1+"</a>"
-          })
-          return s
+<script>
+    !function(d,s,id)
+    {
+        var js,fjs=d.getElementsByTagName(s)[0];
+        if(!d.getElementById(id))
+        {
+            js=d.createElement(s);
+            js.id=id;
+            js.src="platform.twitter.com/widgets.js";
+            fjs.parentNode.insertBefore(js,fjs);
         }
-
-        $.ajax({
-            url: "http://api.twitter.com/1/users/show.json?include_entities=false&screen_name="+user+"&callback=?"
-          , type: 'jsonp'
-          , error: function (err) { $('#twitter-profile').addClass('error');  }
-          , success: function(data) {
-              container.html('<img class="left" src="http://api.twitter.com/1/users/profile_image/'+user+'.json?size=bigger" alt="@'+user+'"><p><strong>'+data.name+'</strong> (<a href="http://twitter.com/'+user+'">@'+user+'</a>)<br/>'+data.location+'</p><p>'+parseTwLinks(data.description)+'</p>');
-            }
-        })
-      });
-  </script>
+    }(document,"script","twitter-wjs");
+</script>
 </section>
 
 <section>
@@ -226,6 +250,10 @@
 
 
 
+<section>
+  <h1>Categories</h1>
+    <ul id="category-list"><li><a href='/blog/categories/github/'>GitHub (1)</a></li><li><a href='/blog/categories/ocotopress/'>Ocotopress (1)</a></li><li><a href='/blog/categories/ssh/'>SSH (1)</a></li></ul>
+</section>
 
   
 </aside>
