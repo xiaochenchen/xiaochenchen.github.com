@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: 中文 | kn0w != undeRstand]]></title>
+  <link href="http://xiaochenchen.github.io/blog/categories/zhong-wen/atom.xml" rel="self"/>
+  <link href="http://xiaochenchen.github.io/"/>
+  <updated>2013-05-20T20:55:45+00:00</updated>
+  <id>http://xiaochenchen.github.io/</id>
+  <author>
+    <name><![CDATA[Xiaochen Chen]]></name>
+    <email><![CDATA[xiaochenchen.git@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[中文测试]]></title>
+    <link href="http://xiaochenchen.github.io/blog/2013/05/19/zhong-wen-ce-shi/"/>
+    <updated>2013-05-19T02:44:00+00:00</updated>
+    <id>http://xiaochenchen.github.io/blog/2013/05/19/zhong-wen-ce-shi</id>
+    <content type="html"><![CDATA[<p>中文测试页,第一篇贴.</p>
+]]></content>
+  </entry>
+  
+</feed>
